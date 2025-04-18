@@ -12,3 +12,11 @@ elif choice == "-":
 elif choice == "*":
   prod_of_num = num1 * num2
   print("multiplication: ", prod_of_num)
+elif choice == "/":
+  div_of_num = num1 / num2
+  print("division: ", div_of_num)
+elif choice == "%":
+  rem_of_num = num1 % num2
+  print("remainder: ", rem_of_num)
+else:
+  print("Invalid choice")
